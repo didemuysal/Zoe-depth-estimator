@@ -25,7 +25,7 @@ class DepthEstimationModel:
 
     def save_colored_depth(
         self, depth_numpy, output_path
-    ):  # depth arrayi ile donecek, fotoyu kayeddecegi path
+    ):  
         colored = colorize(depth_numpy)
         Image.fromarray(colored).save(output_path)
         print("Image saved.")
