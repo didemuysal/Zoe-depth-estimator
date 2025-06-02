@@ -4,26 +4,7 @@ Overview
 
 The Zoe Depth Estimation API is a deep-learning model designed to estimate depth from images using PyTorch. This API leverages FastAPI to provide an efficient and scalable endpoint for real-time depth estimation.
 
-### CLI Usage
 
-```bash
-usage: cli.py [-h] input_image output_image
-
-Depth estimation using ZoeDepth
-
-positional arguments:
-  input_image   Path to input image.
-  output_image  Path to output depth map.
-
-options:
-  -h, --help    show this help message and exit     
-```
-
-
-### API Usage
-```
-http://127.0.0.1:8000/predict
-```
 
 Features
 - Fast and accurate depth estimation
